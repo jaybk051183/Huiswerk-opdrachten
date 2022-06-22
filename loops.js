@@ -6,7 +6,10 @@
 // Hoera!
 // ==========================================
 
-
+const uitspraak = ["Hoera!", "Hoera!", "Hoera!"];
+for (let i= 0; i < uitspraak.length; i++) {
+    console.log(uitspraak[i]);
+}
 
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de vijfde loop het woord "klaar!"
@@ -18,7 +21,10 @@
 // klaar!
  // ==========================================
 
-
+const woorden = ["loop", "loop", "loop", "loop", "klaar"]
+for (let i= 0; i < 5; i++) {
+    console.log(woorden[i]);
+}
 
 // ==========================================
 // Opdracht 3. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal even of oneven is.
@@ -32,6 +38,11 @@
 
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over. Google daarom eens naar 'mdn webdocs remainder operator'.
 // ==========================================
+
+for(let i = 0; i <= 15; i++) {
+    if([i] % 2 === 0) {
+        console.log( i + " " + "is even");
+    } else {console.log( i + " " + "is oneven")}}
 
 
 
@@ -51,3 +62,9 @@
 // >> 9
 // ==========================================
 
+for(let i = 0; i <= 9; i++) {
+    if ([i] < 3) {console.log ([i])}
+    if([i] >= 3 && [i] < 6) {
+        console.log( ">" + [i]);
+        if ([i] >= 6)
+        {console.log( ">>" + [i])}}}
